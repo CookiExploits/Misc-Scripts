@@ -1,4 +1,4 @@
-local Amount = game.CoreGui.ScreenGui.TextBox.Text
+local Amount = game:GetService("CoreGui").ScreenGui.Container.Template["window_toggle"].Text
 
 local args = {
     [1] = "Focus",
